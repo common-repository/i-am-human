@@ -1,0 +1,47 @@
+/* 
+    Document   : grid_styles.css
+    Created on : Aug 31, 2013, 1:57:12 PM
+*/
+
+.grid_cell {
+    height: auto;
+    width: auto;
+    border: black 1px solid; 
+    display: table-cell;
+}
+
+.grid_row {
+    width: 100%;
+    display: table-row;
+}
+
+.cell_foreground {
+    background: yellow;
+}
+
+.cell_background {
+    background: black;
+}
+
+
+#iamhuman_dialog_contents {
+    margin: 10px;
+    
+}
+
+#iamhuman_grid {
+    padding: 10px;
+}
+
+.iamhuman_message {
+    border: 1px solid;
+    color: #FF0000;
+    font-size: 14px;
+    margin: 15px 7px 7px;
+    padding: 6px;
+    display: none;
+}
+
+#iamhuman_description {
+    padding-left: 10px;
+}
